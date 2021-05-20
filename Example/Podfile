@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CXAD_Tests' do
+  pod 'CXAD', :path => '../'
+  
+  
+end
