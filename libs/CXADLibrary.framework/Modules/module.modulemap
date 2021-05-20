@@ -1,0 +1,6 @@
+framework module CXADLibrary {
+  umbrella header "CXADLibrary.h"
+
+  export *
+  module * { export * }
+}

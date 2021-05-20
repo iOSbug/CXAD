@@ -1,0 +1,6 @@
+framework module CXAD {
+  umbrella header "CXAD-umbrella.h"
+
+  export *
+  module * { export * }
+}

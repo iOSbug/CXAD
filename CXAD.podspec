@@ -21,16 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/519955268@qq.com/CXAD'
+  s.homepage         = 'https://github.com/iOSbug/CXAD'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '519955268@qq.com' => '519955268@qq.com' }
-  s.source           = { :git => 'https://github.com/519955268@qq.com/CXAD.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSbug/CXAD.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CXAD/Classes/**/*'
+  s.ios.deployment_target = '9.0'
+  s.vendored_frameworks = "libs/*.{framework}"
+  
+  s.dependency 'Ads-CN'
   
   # s.resource_bundles = {
   #   'CXAD' => ['CXAD/Assets/*.png']

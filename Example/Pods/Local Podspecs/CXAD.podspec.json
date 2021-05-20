@@ -1,0 +1,22 @@
+{
+  "name": "CXAD",
+  "version": "0.1.0",
+  "summary": "A short description of CXAD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/519955268@qq.com/CXAD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "519955268@qq.com": "519955268@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/519955268@qq.com/CXAD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CXAD/Classes/**/*"
+}
